@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a0f6c3bdc6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="spotify-logo"> <img src="logo.png" alt="Logo">
+                Spotify </li>
+            <li>Home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Tracks</h1>
+            <div class="songListContainer">
+                <div class = "listFinal">
+                <img src="covers/1.jpg" alt="Cover image">
+                <p class = "songName">Let me Love you</p>
+                <span class="rightList">
+                    <p>05:34</p>
+                    <i class="fa-solid songItemPlay fa-play"></i>
+                </span>
+                </div>
+
+                <div class = "listFinal">
+                    <img src="covers/2.jpg" alt="Cover image">
+                    <p class = "songName">Let me Love you</p>
+                    <span class="rightList">
+                        <p>05:34</p>
+                        <i class="fa-solid songItemPlay fa-play"></i>
+                    </span>
+                    </div>
+
+                    <div class = "listFinal">
+                        <img src="covers/3.jpg" alt="Cover image">
+                        <p class = "songName">Let me Love you</p>
+                        <span class="rightList">
+                            <p>05:34</p>
+                            <i class="fa-solid songItemPlay fa-play"></i>
+                        </span>
+                        </div>
+
+                        <div class = "listFinal">
+                            <img src="covers/4.jpg" alt="Cover image">
+                            <p class = "songName">Let me Love you</p>
+                            <span class="rightList">
+                                <p>05:34</p>
+                                <i class="fa-solid songItemPlay fa-play"></i>
+                            </span>
+                            </div>
+
+                            <div class = "listFinal">
+                                <img src="covers/5.jpg" alt="Cover image">
+                                <p class = "songName">Let me Love you</p>
+                                <span class="rightList">
+                                    <p>05:34</p>
+                                    <i class="fa-solid songItemPlay fa-play"></i>
+                                </span>
+                                </div>
+
+                                <div class = "listFinal">
+                                    <img src="covers/6.jpg" alt="Cover image">
+                                    <p class = "songName">Let me Love you</p>
+                                    <span class="rightList">
+                                        <p>05:34</p>
+                                        <i class="fa-solid songItemPlay fa-play"></i>
+                                    </span>
+                                    </div>
+
+                                    <div class = "listFinal">
+                                        <img src="covers/7.jpg" alt="Cover image">
+                                        <p class = "songName">Let me Love you</p>
+                                        <span class="rightList">
+                                            <p>05:34</p>
+                                            <i class="fa-solid songItemPlay fa-play"></i>
+                                        </span>
+                                        </div>
+
+                                        <div class = "listFinal">
+                                            <img src="covers/8.jpg" alt="Cover image">
+                                            <p class = "songName">Let me Love you</p>
+                                            <span class="rightList">
+                                                <p>05:34</p>
+                                                <i class="fa-solid songItemPlay fa-play"></i>
+                                            </span>
+                                            </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name = "range" id = "myProgressBar" min = "0" max = "10000" value = "0">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-3x" id = "backwardSong"></i>
+            <i class="fa-solid fa-play fa-3x" id = "masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-3x" id = "forwardSong"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id = "playGif" class = "gifOpacity0">
+            <p id = "masterSongName">Song 1</p>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
+
